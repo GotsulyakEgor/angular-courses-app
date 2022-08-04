@@ -1,0 +1,20 @@
+<div class="login-form">
+<form   (ngSubmit)="loginClick()" (keyup.enter)="submitBtn.click()">
+  <h2 class="line-1 anim-typewriter">LOGIN</h2>
+  <div class="content">
+    <div class="input-field">
+      <input [(ngModel)]="userEmail"  name="first" type="email" placeholder="Email" autocomplete="nope" >
+    </div>
+    <div class="input-field">
+      <input [(ngModel)]="userPassword" name="first" type="password" placeholder="Password" autocomplete="new-password" >
+    </div>
+    <div class="action">
+
+<!--      <button #submitBtn class="signInBtn" (click)="loginClick()" routerLink="/courses" > Sign in</button>-->
+      <a  class="signInBtn" #submitBtn (click)="loginClick()" routerLink="/courses" ><span data-attr="Sign" >Sign</span><span data-attr="in" class="out-class">in</span></a>
+    </div>
+  </div>
+</form>
+</div>
+
+

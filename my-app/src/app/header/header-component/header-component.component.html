@@ -1,0 +1,12 @@
+<div class="header">
+<!--  <img class="img-logo"-->
+<!--       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEwqSbepBFYUe0k0UF_xjaRm7sEHWU9knHow&usqp=CAU"-->
+<!--       alt="logo">-->
+  <div>
+  <h2 class="line-1 anim-typewriter">My first courses app</h2></div>
+  <div class="log-container">
+    <h3 class="header-name" [(ngModel)]="UserLogin">{{UserLogin}}</h3>
+<!--    <button  class="header-btn" (click)="logoutClick()" >Log out</button>-->
+    <a (click)="logoutClick()" class="log-class"><span data-attr="Log" >Log</span><span data-attr="out" class="out-class">out</span></a>
+  </div>
+</div>
