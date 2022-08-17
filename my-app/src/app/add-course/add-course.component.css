@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .form-container {
   width: 800px;
   display: flex;
   padding: 30px 30px;
   align-items: center;
-  border: solid 2px black;
+  border: solid 2px white;
   border-radius: 5%;
+  margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
-  background-color: white;
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
+span {
+  margin-left: 4%;
+}
 
 input .ng-invalid .ng-touched {
   border: 2px solid red;
@@ -19,9 +27,11 @@ input .ng-invalid .ng-touched {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 40px;
-  /*border: 2px solid gray;*/
-  border-radius: 3%;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
   font-size: 16px;
+  color: white;
 }
 
 .form-label {
@@ -31,9 +41,11 @@ input .ng-invalid .ng-touched {
 .form-textarea {
   margin-top: 10px;
   margin-bottom: 20px;
-  border: 2px solid gray;
-  border-radius: 3%;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
   font-size: 16px;
+  color: white;
 }
 
 .cancel-btn {
